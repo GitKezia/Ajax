@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "name": "ajax",
+  "description": "Um pacote com diversas tecnologias",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitKezia/Ajax.git"
+  },
+  "author": "Kezia Victoria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitKezia/Ajax/issues"
+  },
+  "homepage": "https://github.com/GitKezia/Ajax#readme"
+}
