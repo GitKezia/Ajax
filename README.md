@@ -1,15 +1,34 @@
-# Ajax (Asynchronous JavaScript and XML)
+## HTTP
+HyperText Transfer Protocol
 
-Um pacote com diversas tecnologias
+#### Referências
+- https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview#o_que_pode_ser_controlado_pelo_http
 
-## HTTP (HyperText Transfer Protocol)
-É um protocolo que permite a obtenção de recursos, como documentos HTML. 
-Protocolo de Transferência de hipertexto, resposável pelas diversas trocas de dados na web, serve para facilitar a comunicação entre cliente e servidor.
+## AJAX
+Asynchronous JavaScript and XML
+- importante por trabalhar atualização da página sob demanda, de modo assíncrono
+- requisições assíncronas trabalham de modo não cronológico, varia de acordo com o tempo de resposta do servidor, quantidade de informações...
+- pode ser implementada pelo [JQuery](https://api.jquery.com/jquery.ajax/) ou [Fecth API do JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)
 
-## Requisições Assíncronas
+## APIs
+Application Program Interface
+- [GitHub > Users](https://docs.github.com/en/rest/reference/users)
+- [Json Placeholder > Posts](https://jsonplaceholder.typicode.com/posts)
 
-devloper.mozzila.org - uma visão geral do http
+## Rest
+Criado por Roy Fielding, um dos criadores do HTTP
+- Serve para estabelecer padrões de comunicação entre back-end e front-end
+- Header: cabeçalho de requisições
+- Path: caminho ou rota para back-end
+- URL: apix.google.com, api.amazon.com, petstore.swagger.io, heçp.vtex.com
+- Interoperar dados, informações, serviços
+- Get
+- Post
+- Put
+- Delete
 
-
-- GET: solicita informações;
-- POST: envia informações
+## Validação de Formulário
+- Garantir o preenchimento correto de campos
+- Validar dados, documentos, números importantes (CPF, CEP, Telefone, Número de Cartão, .... )
+- Prevenção de vulnerabilidades como SQL Injection
+- Tarefa do front-end, que podem ser processadas pelo back-end
